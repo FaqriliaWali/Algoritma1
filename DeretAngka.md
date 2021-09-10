@@ -1,13 +1,22 @@
 ## Deret Angka
 ```
 1. mulai
-2. Masukkan bilangan awal 1
-3. masukkan bilangan akhir 13
-4. loncatkan jumlah 1 ke 2 = 1
-5. loncatkan jumlah 2 ke 3 = 1
-6. Locatkan jumlah 3 ke 5 = 2
-7. loncatkan jumlah 5 = 8 = 3 
-8. loncatkan jumlah 8 ke 13 = 5
+2. Masukkan bilangan 1
+3. masukkan bilanga 1
+4. masukkan bilanga 2
+5. masukkan bilanga 3
+6. masukkan bilanga 5
+7. masukkan bilanga 8 
+8. masukkan bilanga 13
+9. Bilangan 1=1
+10. Bilangan 1=1
+11. Tambakan Bilangan 1+1 = 2
+12. Tambakan Bilangan 2+1 = 3
+13. Tambakan Bilangan 3+2 = 5
+14. Tambakan Bilangan 5+3 = 8
+15. Tambakan Bilangan 8+5 = 13
+
+
 
 ```
 
@@ -15,15 +24,20 @@
 
 ```c
 main() {
-int a;
-int b;
-int c;
-int d;
-int e ;
+int a = 1;
+	int b = 1;
+	int c = 2;
+	int d = 3;
+	int e = 5;
+	int f = 8;
+	int g = 13;
+	
+	cout<<"Nilai A ="<<a <<endl;
+	cout<<"Nilai B ="<<b <<endl;
+	cout<<"Nilai C ="<<+c <<endl;
+	cout<<"Nilai D ="<<+d <<endl;
+	cout<<"Nilai E ="<<+e <<endl;
+	cout<<"Nilai F ="<<+f <<endl;
+	cout<<"Nilai G ="<<+g <<endl;
 
-a = 1;
-b = 1;
-c = 2
-d = 3
-e = 5
 }
